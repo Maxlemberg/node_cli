@@ -1,0 +1,31 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "homework task",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxlemberg/node_cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Maksym",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maxlemberg/node_cli/issues"
+  },
+  "homepage": "https://github.com/Maxlemberg/node_cli#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "commander": "^9.2.0",
+    "uuid": "^8.3.2",
+    "yargs": "^17.4.1"
+  }
+}
